@@ -1,0 +1,86 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - storj-complex > storj-mongodb-adapter > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-service-storage-models > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-service-storage-models > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-service-storage-models > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-service-storage-models > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-service-storage-models > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-service-storage-models > storj-lib > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-service-storage-models > storj-lib > bitcore-ecies > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-service-storage-models > storj-lib > bitcore-message > bitcore-lib > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-service-storage-models > storj-lib > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
+    - storj-complex > storj-service-storage-models > storj-lib > kad-quasar > kad > lodash:
+        patched: '2018-07-03T08:36:32.114Z'
