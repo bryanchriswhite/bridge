@@ -57,7 +57,7 @@
     "sinon": "^1.17.2"
   },
   "dependencies": {
-    "analytics-node": "^2.4.0",
+    "analytics-node": "^2.4.1",
     "async": "^2.1.4",
     "bn.js": "^4.11.8",
     "commander": "^2.9.0",
@@ -82,7 +82,7 @@
     "secp256k1": "^3.3.0",
     "storj-analytics": "^1.0.0",
     "storj-complex": "^7.5.0",
-    "storj-lib": "^8.0.0",
+    "storj-lib": "^8.5.0",
     "storj-mongodb-adapter": "^9.0.0",
     "storj-service-error-types": "^1.2.0",
     "storj-service-mailer": "^1.0.0",
