@@ -1,0 +1,82 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - analytics-node > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-analytics > analytics-node > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-mailer > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-storage-models > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-storage-models > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-storage-models > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-storage-models > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-service-storage-models > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-service-storage-models > mongoose-types > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-service-storage-models > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-service-storage-models > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-service-storage-models > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-service-storage-models > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-service-storage-models > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-mongodb-adapter > storj-service-storage-models > mongoose-types > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-service-storage-models > mongoose-types > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > kfs > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > storj-lib > nat-upnp > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
+    - storj-complex > storj-mongodb-adapter > storj-service-storage-models > mongoose-types > mongoose > async > lodash:
+        patched: '2020-05-01T06:32:12.206Z'
