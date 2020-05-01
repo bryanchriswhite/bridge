@@ -21,7 +21,9 @@
     "dev": "NODE_ENV=development nodemon bin/storj-bridge.js",
     "make-docs": "./node_modules/.bin/jsdoc index.js lib -r -R README.md -u ./doc -c .jsdoc.json --verbose -d ./jsdoc",
     "publish-docs": "gh-pages -d jsdoc --repo git@github.com:Storj/bridge.git",
-    "payout-report": "node script/payouts.js"
+    "payout-report": "node script/payouts.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -88,6 +90,8 @@
     "storj-service-mailer": "^1.0.0",
     "storj-service-middleware": "^1.3.1",
     "storj-service-storage-models": "^10.5.0",
-    "through": "^2.3.8"
-  }
+    "through": "^2.3.8",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
